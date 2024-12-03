@@ -1,4 +1,81 @@
 @font-face {
-    font-family:'SixtyFour' ;
-    src: url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swa');
+    font-family:'Passion';
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+
+
+  
+
+p{
+    font-family: 'Urbanist';
+   
+}
+
+body{
+    --black:#131515;
+    --grey: #2B2C28;
+    --white: #EFEFEF;
+    --light-blue: #63D2FF;
+    --blue: #2081C3;
+}
+
+header img {
+    width: 90px;
+}
+
+/* Définition des couleurs */
+
+
+/* Fond d'écran avec dégradé animé */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, var(--black), var(--grey), var(--light-blue), var(--blue), var(--white));
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: var(--white); /* Texte en blanc */
+    font-family: 'Arial', sans-serif;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Animation du dégradé */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Style pour le texte */
+h1 {
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.marleft{
+    margin-left: 10px;
+}
+
+nav{
+    padding: 30px;
+    border-bottom: solid white 1px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
