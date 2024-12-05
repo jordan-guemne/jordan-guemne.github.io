@@ -9,7 +9,32 @@
 }
 
 
+.passion-one-regular {
+    font-family: "Passion One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
 
+  
+
+.urbanist{
+  font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
   
 
 p{
@@ -71,11 +96,99 @@ h1 {
 }
 
 nav{
-    padding: 30px;
-    border-bottom: solid white 1px;
+    padding: 10px;
+    
+   
 }
 
 a{
     text-decoration: none;
     color: white;
 }
+
+.border{
+    border-top: 1px solid white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre sur chaque p */
+    transition: transform 0.3s ease; /* Transition pour l'effet de zoom */
+  }
+
+  /* Animation de clignotement lent */
+  @keyframes clignoter {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Application de l'animation de clignotement sur tous les p */
+  p {
+    animation: clignoter 5s infinite; /* Clignotement toutes les 5 secondes */
+  }
+
+  /* Effet de zoom au survol */
+  p:hover {
+    transform: scale(1.1); /* Augmente légèrement la taille du texte */
+  }
+
+  /* Style pour le dernier mot dans chaque <p> (séparé avec <a>) */
+  a {
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 5px;
+    transition: transform 0.3s ease;
+  }
+
+  a:hover {
+    transform: scale(1.2); /* Zoom du dernier mot au survol */
+  }
+
+
+                                /* main */
+
+#title{
+    margin-top: 80px;
+    animation: clignoter;
+}
+
+@keyframes monterDescendre {
+    0%, 100% {
+      transform: translateY(0); /* Position normale */
+    }
+    50% {
+      transform: translateY(-3px); /* Montée de 3px */
+    }
+  }
+
+  /* Pour faire varier l'animation de chaque lettre, on ajoute un délai différent */
+  h1 span:nth-child(1) {
+    animation-delay: monterDescendre 0s infinite;
+  }
+  h1 span:nth-child(2) {
+    animation-delay: monterDescendre 0.1s;
+  }
+  h1 span:nth-child(3) {
+    animation-delay: monterDescendre 0.2s infinite;
+  }
+  h1 span:nth-child(4) {                       /* Voir comment ça marche */
+    animation-delay: monterDescendre 0.3s infinite;
+  }
+  h1 span:nth-child(5) {
+    animation-delay: monterDescendre 0.4s infinite;
+  }
+  h1 span:nth-child(6) {
+    animation-delay: 0.5s;
+  }
+  h1 span:nth-child(7) {
+    animation-delay: 0.6s;
+  }
