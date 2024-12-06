@@ -57,33 +57,9 @@ header img {
 /* Définition des couleurs */
 
 
-/* Fond d'écran avec dégradé animé */
-body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(45deg, var(--black), var(--grey), var(--light-blue), var(--blue), var(--white));
-    background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
-    color: var(--white); /* Texte en blanc */
-    font-family: 'Arial', sans-serif;
-    
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-/* Animation du dégradé */
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
+
+
 
 /* Style pour le texte */
 h1 {
@@ -117,28 +93,10 @@ p {
     transition: transform 0.3s ease; /* Transition pour l'effet de zoom */
   }
 
-  /* Animation de clignotement lent */
-  @keyframes clignoter {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.3;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
 
-  /* Application de l'animation de clignotement sur tous les p */
-  p {
-    animation: clignoter 5s infinite; /* Clignotement toutes les 5 secondes */
-  }
 
   /* Effet de zoom au survol */
-  p:hover {
-    transform: scale(1.1); /* Augmente légèrement la taille du texte */
-  }
+
 
   /* Style pour le dernier mot dans chaque <p> (séparé avec <a>) */
   a {
@@ -149,46 +107,17 @@ p {
     transition: transform 0.3s ease;
   }
 
-  a:hover {
-    transform: scale(1.2); /* Zoom du dernier mot au survol */
-  }
-
-
-                                /* main */
 
 #title{
-    margin-top: 80px;
-    animation: clignoter;
+    margin-top: 50px;
+    text-align: center;
+    
 }
 
-@keyframes monterDescendre {
-    0%, 100% {
-      transform: translateY(0); /* Position normale */
-    }
-    50% {
-      transform: translateY(-3px); /* Montée de 3px */
-    }
+/* Ici on va gérer le footer */
+footer{
+  div{
+    margin-top: 40px;
   }
+}
 
-  /* Pour faire varier l'animation de chaque lettre, on ajoute un délai différent */
-  h1 span:nth-child(1) {
-    animation-delay: monterDescendre 0s infinite;
-  }
-  h1 span:nth-child(2) {
-    animation-delay: monterDescendre 0.1s;
-  }
-  h1 span:nth-child(3) {
-    animation-delay: monterDescendre 0.2s infinite;
-  }
-  h1 span:nth-child(4) {                       /* Voir comment ça marche */
-    animation-delay: monterDescendre 0.3s infinite;
-  }
-  h1 span:nth-child(5) {
-    animation-delay: monterDescendre 0.4s infinite;
-  }
-  h1 span:nth-child(6) {
-    animation-delay: 0.5s;
-  }
-  h1 span:nth-child(7) {
-    animation-delay: 0.6s;
-  }

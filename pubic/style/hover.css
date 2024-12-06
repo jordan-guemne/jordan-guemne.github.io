@@ -1,0 +1,14 @@
+ /* Effet de zoom au survol */
+ p:hover{
+    transform: scale(1.1); /* Augmente légèrement la taille du texte */
+  }
+
+  p a:hover{
+    background-color: var(--white);
+    padding: 5px;
+    color: var(--blue);
+    animation: couleurs 2s infinite;
+    border-radius: 3px;
+    animation: borderColor 2s infinite;
+    animation: clignoter 3s infinite;
+  }
