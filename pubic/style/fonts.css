@@ -1,0 +1,48 @@
+@font-face {
+    font-family:'Passion';
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+
+.passion-one-regular {
+    font-family: "Passion One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  
+
+.urbanist{
+  font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
+
+p{
+    font-family: 'Urbanist';
+   
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: var(--white);
+}
