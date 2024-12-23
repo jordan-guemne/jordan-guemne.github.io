@@ -12,3 +12,8 @@
     animation: borderColor 2s infinite;
     animation: clignoter 3s infinite;
   }
+
+  .icons:hover{
+    transform: scale(2);
+    animation-delay: 1s;
+  }

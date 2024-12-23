@@ -6,7 +6,6 @@
 
 nav{
     padding: 10px;
-    
    
 }
 
@@ -19,32 +18,21 @@ a{
     border-top: 1px solid white;
 }
 
-p {
-    font-size: 20px;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre sur chaque p */
-    transition: transform 0.3s ease; /* Transition pour l'effet de zoom */
-  }
-
-
-
-  /* Effet de zoom au survol */
-
-
-  /* Style pour le dernier mot dans chaque <p> (séparé avec <a>) */
-  a {
-    font-weight: bold;
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 0 5px;
-    transition: transform 0.3s ease;
-  }
-
+ 
 
 #title{
     margin-top: 50px;
     text-align: center;
     
+}
+
+#top-icons{
+  text-align: center;
+  i{
+    width: 300px;
+    color: var(--white);
+    margin-top: 72px;
+  }
 }
 
 /* Ici on va gérer le footer */
