@@ -1,10 +1,17 @@
 .xxl-icon{
     font-size: 68px;
     color: var(--white);
-    animation: jump 12s ease-in-out infinite;
+    
     /* margin-top: 20px; */
 }
 
+#competences .xxl-icon{
+  animation: jump 12s ease-in-out infinite;
+  
+}
+
+
+ */
 .border {
     border-top: 1px solid white;
   }

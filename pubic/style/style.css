@@ -78,6 +78,7 @@ main{
 
   #competences{
     border: solid 0.2px var(--white);
+    
     h3{
       margin-top: 40px;
       color: var(--white);
@@ -93,6 +94,7 @@ main{
   }
 
   #contact{
+    margin-top: 60px;
     div{
       text-align: center;
       color: var(--white);
@@ -102,7 +104,9 @@ main{
       }
     }
 
-
+    #info{
+      margin-top: 60px;
+    }
 
 }
 
