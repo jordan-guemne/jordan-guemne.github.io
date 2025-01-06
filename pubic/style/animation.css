@@ -2,28 +2,38 @@ body {
     margin: 0;
     height: 100vh;
     background: linear-gradient(45deg, var(--black), var(--grey), var(--light-blue), var(--blue), var(--white));
-    background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
+    background-size: 800% 800%;
+    /* animation: gradientAnimation 20s ease infinite; */
     
 }
 
-a {
-    font-weight: bold;
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 0 5px;
-    transition: transform 0.3s ease;
-  }
+header{
+    p{
+        animation: clignoter 3s infinite; /* Clignotement toutes les 5 secondes */
+    }
 
-  p{
-    animation: clignoter 3s infinite; /* Clignotement toutes les 5 secondes */
+    
 }
+
+
+
+  
 
 p {
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre sur chaque p */
     transition: transform 0.3s ease; /* Transition pour l'effet de zoom */
+  }
+
+  footer{
+    a {
+        font-weight: bold;
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 0 5px;
+        transition: transform 0.3s ease;
+      }
   }
 
   .urbanist span {

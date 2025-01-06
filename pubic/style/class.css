@@ -1,0 +1,40 @@
+.xxl-icon{
+    font-size: 68px;
+    color: var(--white);
+    animation: jump 12s ease-in-out infinite;
+    /* margin-top: 20px; */
+}
+
+.border {
+    border-top: 1px solid white;
+  }
+
+  .ratings{
+    background-color: var(--white);
+    color: var(--blue);
+    border-radius: 20px;
+    padding: 40px 20px;
+    box-shadow: 3px 3px var(--blue), 3px 3px var(--blue);
+    width: 800px;
+    p{
+        color: var(--blue);
+    }
+  }
+
+  .m-bottom{
+    margin-bottom: 40px;
+  }
+
+  
+
+  .droite{
+    i{
+        margin-right: 150px;
+    }
+  }
+
+  .gauche{
+    i{
+        margin-left: 150px;
+    }
+}

@@ -1,5 +1,6 @@
  /* Effet de zoom au survol */
- p:hover{
+header{
+  p:hover{
     transform: scale(1.1); /* Augmente légèrement la taille du texte */
   }
 
@@ -12,8 +13,16 @@
     animation: borderColor 2s infinite;
     animation: clignoter 3s infinite;
   }
+}
+
+ 
 
   .icons:hover{
-    transform: scale(2);
-    animation-delay: 1s;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .xxl-icon:hover{
+    transform: scale(10);
+    transition: all 0.5s ease-out;
   }

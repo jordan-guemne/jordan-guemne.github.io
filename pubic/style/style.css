@@ -1,45 +1,115 @@
-
-
-.marleft{
+header {
+  .marleft {
     margin-left: 10px;
-}
+  }
 
-nav{
+  nav {
     padding: 10px;
-   
-}
 
-a{
+  }
+
+  a {
     text-decoration: none;
     color: white;
-}
+  }
 
-.border{
-    border-top: 1px solid white;
-}
+  
 
- 
-
-#title{
-    margin-top: 50px;
-    text-align: center;
-    
-}
-
-#top-icons{
-  text-align: center;
-  i{
-    width: 300px;
-    color: var(--white);
-    margin-top: 72px;
+  p{
+    font-weight: 900;
   }
 }
 
-/* Ici on va gérer le footer */
-footer{
-  div{
+main{
+  #top-page{
+    #title {
+      margin-top: 50px;
+      text-align: center;
+    
+    }
+  }
+
+  #top-icons {
+    text-align: center;
+  
+    i {
+      width: 300px;
+      color: var(--white);
+      margin-top: 72px;
+    }
+  }
+
+  #about{
+    padding: 72px;
+   #me{
+      width: 300px;
+      margin-top: 100px;
+      
+      img{
+        width: 100%;
+        filter: drop-shadow(10px 10px 4px #131515);
+        perspective: 800px;
+      }
+   }
+
+   
+      
+    }
+
+    #text{
+      margin-left: 70px;
+      h3{
+        color: var(--white);
+  
+      
+    }
+    button{
+      background: none;
+      border: none;
+      background-color: var(--white);
+      padding: 15px;
+      border-radius: 10px;
+      color: var(--light-blue);
+      filter: drop-shadow(10px 10px 4px #131515);
+    }
+   }
+
+  }
+
+  #competences{
+    border: solid 0.2px var(--white);
+    h3{
+      margin-top: 40px;
+      color: var(--white);
+    }
+
+    article{
+      margin-top: 50px;
+      .right-ul{
+        margin-left: 200px;
+      }
+    }
+  
+  }
+
+  #contact{
+    div{
+      text-align: center;
+      color: var(--white);
+
+      p{
+        margin-top: 40px;
+      }
+    }
+
+
+
+}
+
+
+
+footer {
+  div {
     margin-top: 40px;
   }
 }
-
-
