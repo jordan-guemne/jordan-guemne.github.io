@@ -3,7 +3,7 @@ body {
     height: 100vh;
     background: linear-gradient(45deg, var(--black), var(--grey), var(--light-blue), var(--blue), var(--white));
     background-size: 10000% 10000%;
-    animation: gradientAnimation 40s ease infinite;
+    animation: gradientAnimation 60s ease-in-out infinite;
     
 }
 
