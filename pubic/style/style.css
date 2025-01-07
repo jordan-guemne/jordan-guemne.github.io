@@ -192,6 +192,10 @@ main {
 
       p {
         margin-top: 40px;
+        a{
+          color: var(--white);
+          text-decoration: none;
+        }
       }
     }
 
