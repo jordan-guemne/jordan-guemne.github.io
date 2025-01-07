@@ -2,8 +2,8 @@ body {
     margin: 0;
     height: 100vh;
     background: linear-gradient(45deg, var(--black), var(--grey), var(--light-blue), var(--blue), var(--white));
-    background-size: 800% 800%;
-    /* animation: gradientAnimation 20s ease infinite; */
+    background-size: 10000% 10000%;
+    animation: gradientAnimation 20s ease infinite;
     
 }
 

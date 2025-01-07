@@ -95,3 +95,26 @@
         transform: translateY(0); /* Retour à la position initiale */
     }
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.parcours-item .parcours-content p {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .parcours-item.left, .parcours-item.right {
+        width: 100%;
+        left: 0;
+    }
+}
