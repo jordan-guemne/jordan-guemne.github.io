@@ -1,0 +1,8 @@
+body{
+    --green-principal: #2C6B4D; /* vert principal */
+    --green-secondary: #A8D5BA; /*  Pour des touches plus douces, il apporte une sensation de calme et de fraîcheur. */
+    --beige-portfolio: #F5F5DC; /* Pour équilibrer le vert et donner un aspect chaleureux et apaisant à ton design. */
+    --grey-portfolio: #E0E0E0; /* Pour la police */
+    --white-portfolio: #FAFAFA; /* Pour les espaces vides et le fond, cela aide à garder l’ensemble léger et épuré. */  
+    --button-portfolio: #D4AF37; /* Pour les boutons */
+}

@@ -9,115 +9,45 @@
 }
 
 
-.passion-one-regular {
-    font-family: "Passion One", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .passion-one-bold {
-    font-family: "Passion One", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .passion-one-black {
-    font-family: "Passion One", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
 
-  
 
-.urbanist{
-  font-family: "Urbanist", serif;
-  font-optical-sizing: auto;
-  font-weight: 100px;
-  font-style: normal;
-}
-  
-
-p{
-    font-family: 'Urbanist';
-   
+nav {
+  background-color: var(--green-secondary);
+  padding: 10px;
+  text-align: center;
 }
 
-body{
-    --black:#131515;
-    --grey: #2B2C28;
-    --white: #EFEFEF;
-    --light-blue: #63D2FF;
-    --blue: #2081C3;
+nav a {
+  color: var(--green-principal);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-header img {
-    width: 90px;
+
+
+section {
+  margin-bottom: 20px;
 }
 
-/* Définition des couleurs */
-
-
-
-
-
-
-/* Style pour le texte */
-h1 {
-    font-size: 3rem;
-    color: var(--white);
+footer {
+  text-align: center;
+  background-color: var(--grey-portfolio);
+  color: var(--green-principal);
+  padding: 10px;
 }
 
-.marleft{
-    margin-left: 10px;
+button {
+  background-color: var(--button-portfolio);
+  color: var(--white-portfolio);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px 1px #2C6B4D;
+  border-radius: 20px;
 }
 
-nav{
-    padding: 10px;
-    
-   
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.border{
-    border-top: 1px solid white;
-}
-
-p {
-    font-size: 20px;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Ombre sur chaque p */
-    transition: transform 0.3s ease; /* Transition pour l'effet de zoom */
-  }
-
-
-
-  /* Effet de zoom au survol */
-
-
-  /* Style pour le dernier mot dans chaque <p> (séparé avec <a>) */
-  a {
-    font-weight: bold;
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 0 5px;
-    transition: transform 0.3s ease;
-  }
-
-
-#title{
-    margin-top: 50px;
-    text-align: center;
-    
-}
-
-/* Ici on va gérer le footer */
-footer{
-  div{
-    margin-top: 40px;
-  }
+button:hover {
+  background-color: var(--green-secondary);
 }
 

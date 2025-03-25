@@ -1,0 +1,10 @@
+main {
+    padding: 20px;
+    background-color: var(--beige-portfolio);
+    section{
+        h2{
+            color: #2C6B4D;
+           }
+    }
+   
+  }
